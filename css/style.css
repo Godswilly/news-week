@@ -114,7 +114,7 @@ a:hover {
   font-weight: 800;
 }
 
-h5, 
+h5,
 h6 {
   font-weight: 900;
 }
@@ -301,24 +301,23 @@ nav ul li .nav-sport {
     margin-left: 5px;
   }
 
-  .tab-center { 
+  .tab-center {
     width: 40%;
     margin: 0 auto;
   }
 
   .tab-center-2 {
-  width: 36%;
-  margin: 0 auto;
+    width: 36%;
+    margin: 0 auto;
   }
 
   .display-all {
-  display: flex;
+    display: flex;
   }
 
- .hide-1 {
-  display: none;
+  .hide-1 { 
+    display: none;
   }
-
 }
 
 /* ********************* MOBILE****************** */
@@ -404,5 +403,4 @@ nav ul li .nav-sport {
   .wt-inp {
     width: 100%;
   }
-
 }
