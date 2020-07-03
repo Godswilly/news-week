@@ -1,16 +1,16 @@
 .page {
-    height: 100px;
+  height: 100px;
 }
 
 .bot {
-    border-radius: 10px;
-    width: 150px;
-  }
+  border-radius: 10px;
+  width: 150px;
+}
 
-.nav-color  {
-    background-color:  #f72210;
-    opacity: 1;
-  }
+.nav-color {
+  background-color: #f72210;
+  opacity: 1;
+}
 
 .trapezoid {
   border-top: 30px solid #f72210;
@@ -18,61 +18,61 @@
   height: 0;
   width: 70px;
   position: absolute;
-  right:0;
+  right: 0;
   top: 87px;
   z-index: 11;
 }
 
-.navbar .navbar-nav li a:hover {
-    color: red;
-    cursor: pointer;
-    text-decoration: none;
-  }
-
 a:hover {
-    cursor: pointer;
-  }
+  cursor: pointer;
+}
 
-  .debate {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border-top: 5px solid red;
-    border-bottom: 1px solid #ddd;
-  }
+.navbar .navbar-nav li a:hover {
+  color: red;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.debate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 5px solid red;
+  border-bottom: 1px solid #ddd;
+}
+
+.debate-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-top: 1px solid #ddd;
+  border-bottom: 5px solid blue;
+  margin-top: 1px;
+  padding-top: 10px;
+}
   
-  .debate-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border-top: 1px solid #ddd;
-    border-bottom: 5px solid blue;
-    margin-top: 1px;
-    padding-top: 10px;
-  }
+.debator-img {
+  width: 100%;
+  height:70%;
+}
+
+.debate-text {
+  line-height: 1em;
+}
+
+.main-section {
+  height: auto;
+  background: #f4f5f6;
+  margin: 0 auto;
+}
   
-  .debator-img {
-    width: 100%;
-    height:70%;
-  }
+.p-text {
+  font-weight: 900;
+}
 
-  .debate-text {
-    line-height: 1em;
-  }
-
-  .main-section {
-    height: auto;
-    background: #f4f5f6;
-    margin: 0 auto;
-  }
-  
-  .p-text {
-    font-weight: 900;
-  }
-
-  .p-text:hover {
-    color: red;
-  }
+.p-text:hover {
+  color: red;
+}
 
 .gray-line {
   border-top: lightgray 0.4px solid;
@@ -281,6 +281,11 @@ nav ul li .nav-sport {
 .check {
   height: 35px;
   width: 35px;
+}
+
+.img-check {
+  height: 100%;
+  width: 100%;
 }
 
 /* **************************TABLETS*********************************** */
