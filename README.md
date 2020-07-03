@@ -6,7 +6,7 @@ PROJECT: BUILDING WITH RESPONSIVE DESIGN (BOOTSTRAP)
 <br>
 In this project, my main aim was to learn how to build a responsive website with Bootstrap and media queries.The website is responsive on different screen sizes, such as mobile, tablet and desktop.
 
-Project Design Screenshot : ![Project Design](images/screenshot.JPG)
+Project Design Screenshot : ![Project Design](images/screenshot.PNG)
 
 
 ## Built With
