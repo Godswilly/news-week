@@ -32,3 +32,234 @@
 a:hover {
     cursor: pointer;
   }
+
+  .debate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 5px solid red;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .debate-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 1px solid #ddd;
+    border-bottom: 5px solid blue;
+    margin-top: 1px;
+    padding-top: 10px;
+  }
+  
+  .debator-img {
+    width: 100%;
+    height:70%;
+  }
+
+  .debate-text {
+    line-height: 1em;
+  }
+
+  .main-section {
+    height: auto;
+    background: #f4f5f6;
+    margin: 0 auto;
+  }
+  
+  .p-text {
+    font-weight: 900;
+  }
+
+  .p-text:hover {
+    color: red;
+  }
+
+.gray-line {
+  border-top: lightgray 0.4px solid;
+  width: 95%;
+}
+
+.gray-line-2 {
+  border-top: lightgray 0.4px solid;
+  width: 97%;
+}
+
+.opinion {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom: 1px solid #ddd;
+}
+
+.news-letter {
+  background: #f4f5f6;
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 90%;
+}
+
+.news-letter img {
+  width: 10%;
+  height: 10%;
+}
+
+.news-letter-img {
+  width: 2%;
+  height: 5%;
+}
+
+.us-pst{
+  padding: 2px 0;
+  color: red;
+  font-weight: 800;
+}
+
+h5, h6 {
+  font-weight: 900;
+}
+
+h5:hover,
+h6:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.features {
+display: inline-block;
+}
+
+.features:hover{
+  background-color: lightgray;
+}
+ 
+.news-letter button {
+  background: #f22213;
+}
+
+.vs-style-container {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.vs-style-txt {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+border-radius: 100%;
+background-color:#333;
+padding: 1px;
+}
+
+.bottom-text-img {
+  position: relative;
+}
+
+.bottom-text-img-positn {
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  color: #f72824;
+  background-color: #e7e7e7;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.white {
+  background-color: white;
+}
+
+.pix-bottom {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  height: 500px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.movement {
+  position: absolute;
+  top: 7%;
+  left: 30%;
+}
+
+.in-depth {
+  margin-left: 5%;
+}
+
+.starting-5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.starting-5 div {
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+.s-icon {
+  padding: 5px;
+}
+
+.s-icon-1:hover {
+  color: #3b5998;
+}
+
+.s-icon-2:hover {
+  color:  #00acee;
+}
+
+.s-icon-3:hover {
+  color:  #3f729b;
+}
+
+.s-icon-5:hover {
+  color:  #0e76a8;
+}
+
+.s-height {
+  height: 60px;
+}
+
+.news-week {
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+nav ul li .nav-sport {
+  padding: 0 0.8rem;
+  box-sizing: border-box;
+}
+
+.d-flex-3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.pic2-xx {
+  width: 85%;
+}
+
+.debate,
+.debate-2 {
+  height: 150px;
+}
+
+.btn-1 {
+  padding: 0;
+  margin-top: ;
+}
+
+.hide-1 {
+  display: none;
+}
+
+.display-all {
+  display: inline-block;
+}
