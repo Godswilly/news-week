@@ -182,14 +182,10 @@ img:hover {
   flex-wrap: nowrap;
 }
 
-.movement {
+.movement-1 {
   position: absolute;
-  top: 7%;
-  left: 30%;
-}
-
-.in-depth {
-  margin-left: 5%;
+  top: 15%;
+  left: 25%;
 }
 
 .starting-5 {
@@ -243,10 +239,6 @@ nav ul li .nav-sport {
   flex-wrap: nowrap;
 }
 
-.pic2-xx {
-  width: 85%;
-}
-
 .debate,
 .debate-2 {
   height: 150px;
@@ -254,7 +246,6 @@ nav ul li .nav-sport {
 
 .btn-1 {
   padding: 0;
-  margin-top: ;
 }
 
 .hide-1 {
@@ -263,6 +254,28 @@ nav ul li .nav-sport {
 
 .display-all {
   display: inline-block;
+}
+
+.ft-h {
+  height: auto;
+}
+
+.wt {
+  width: 15rem;
+}
+
+.edith {
+  height: 70px;
+}
+
+.img-top-1 {
+  height: 330px;
+  width: 100%;
+}
+
+.img-top {
+  width: 100%;
+  height: 230px;
 }
 
 /* **************************TABLETS*********************************** */
@@ -351,11 +364,9 @@ nav ul li .nav-sport {
 
   .newsweek-m {
     height: 100px;
-    width: 130;
+    width: 130px;
   }
-  .pix-bottom-container {
-    height: auto;
-  }
+
   .pix-bottom {
     display: flex;
     justify-content: space-between;
@@ -363,10 +374,6 @@ nav ul li .nav-sport {
     height: 600px;
     align-items: center;
     flex-wrap: nowrap;
-  }
-
-  .sub-height {
-    height: 600px;
   }
 
   .ft-1 {
@@ -383,6 +390,10 @@ nav ul li .nav-sport {
   .align-prp {
     width: 95%;
     margin: 0 auto;
+  }
+
+  .wt-inp {
+    width: 100%;
   }
 
  
