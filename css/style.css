@@ -278,9 +278,14 @@ nav ul li .nav-sport {
   height: 230px;
 }
 
+.check {
+  height: 35px;
+  width: 35px;
+}
+
 /* **************************TABLETS*********************************** */
 @media only screen and (max-width: 991px) and (min-width: 768px)  {
-  .top-page {
+  .page {
     height: 50px;
 }
 
@@ -314,7 +319,7 @@ nav ul li .nav-sport {
 /* ********************* MOBILE****************** */
 
 @media only screen and (max-width: 767px) {
-  .top-page {
+  .page {
     height: 50px;
 }
 
