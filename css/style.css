@@ -204,6 +204,7 @@ img:hover {
 
 .s-icon {
   padding: 5px;
+  cursor: pointer;
 }
 
 .s-icon-1:hover {
