@@ -16,7 +16,7 @@
   border-top: 30px solid #f72210;
   border-left: 25px solid transparent;
   height: 0;
-  width: 90px;
+  width: 70px;
   position: absolute;
   right: 0;
   top: 87px;
@@ -41,7 +41,7 @@ a:hover {
 .debate {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   border-top: 5px solid red;
   border-bottom: 1px solid #ddd;
 }
@@ -49,7 +49,7 @@ a:hover {
 .debate-2 {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   border-top: 1px solid #ddd;
   border-bottom: 5px solid blue;
   margin-top: 1px;
@@ -153,10 +153,10 @@ h6:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  border-radius: 100%;
-  background-color: #333;
-  padding: 1px;
+  color: #f4f5f6;
+  border-radius: 50%;
+  background-color: black;
+  padding: 5px 8px;
 }
 
 .bottom-text-img {
@@ -236,8 +236,31 @@ img:hover {
 
 nav ul li .nav-sport {
   padding: 0 1rem;
-  font-size: 1.15rem;
+  text-decoration: none;
+  font-size: 0.9rem;
   box-sizing: border-box;
+}
+
+.us-nav ul li a:hover {
+  color: red;
+}
+
+.us-nav ul li a {
+  margin-left: -15px;
+}
+
+.us-nav ul {
+  flex-wrap: nowrap;
+  list-style-type: none;
+  font-size: 14px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -15px;
+}
+
+.us-nav {
+  width: 90%;
 }
 
 .d-flex-3 {
@@ -295,19 +318,23 @@ nav ul li .nav-sport {
   width: 100%;
 }
 
-.search-in {
-  background: url(../images/search-solid.svg) no-repeat;
-  background-size: 25%;
-  width: 100px;
-  background-position-x: right;
-  background-position-y: center;
-  filter: invert(60%);
+.font-reduction {
+  font-size: 16px;
+  font-weight: 300;
 }
 
 /* **************************TABLETS*********************************** */
 @media only screen and (max-width: 991px) and (min-width: 768px) {
   .page {
     height: 50px;
+  }
+
+  .font-reduction {
+    font-size: 10px;
+    font-weight: 300;
+  }
+  .p-text {
+    font-weight: 500;
   }
 
   .newsweek-img-nav {
@@ -333,12 +360,25 @@ nav ul li .nav-sport {
   .hide-1 {
     display: none;
   }
+
+  .debate,
+  .debate-2 {
+    height: 110px;
+  }
 }
 
 /* ********************* MOBILE****************** */
 @media only screen and (max-width: 767px) {
   .page {
     height: 50px;
+  }
+
+  .navigation-1 {
+    position: fixed;
+    top: 0;
+    opacity: 1;
+    z-index: 900000;
+    background-color: red;
   }
 
   .newsweek-img-nav {
@@ -417,5 +457,82 @@ nav ul li .nav-sport {
 
   .wt-inp {
     width: 100%;
+  }
+
+  .flex-mb {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+  }
+
+  .movement-2 {
+    position: absolute;
+    margin-left: -40px;
+    z-index: 10;
+  }
+
+  .movement-3 {
+    margin-top: 20px;
+    margin-left: 40px;
+    z-index: 20;
+    position: absolute;
+  }
+
+  .d-front {
+    font-weight: 900;
+    z-index: 30;
+    font-size: 17px;
+    align-self: flex-end;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .d-flex-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cent-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cent-icon-2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+  }
+
+  .debate,
+  .debate-2 {
+    height: 120px;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1400px) {
+  .font-reduction {
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .p-text {
+    font-weight: 500;
+  }
+
+  main,
+  footer {
+    width: 95vw;
+    margin: 0 auto;
+  }
+
+  .navigation-container {
+    height: auto;
+    width: 95vw;
+    margin: 0 auto;
+    position: relative;
   }
 }
