@@ -27,6 +27,14 @@ a:hover {
   cursor: pointer;
 }
 
+.us-nav ul li a {
+  margin-left: -15px;
+}
+
+.us-nav ul li a:hover {
+  color: red;
+}
+
 .navbar .navbar-nav li a:hover {
   color: red;
   cursor: pointer;
@@ -239,14 +247,6 @@ nav ul li .nav-sport {
   text-decoration: none;
   font-size: 0.9rem;
   box-sizing: border-box;
-}
-
-.us-nav ul li a:hover {
-  color: red;
-}
-
-.us-nav ul li a {
-  margin-left: -15px;
 }
 
 .us-nav ul {
