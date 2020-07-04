@@ -3,7 +3,7 @@
 }
 
 .bot {
-  border-radius: 10px;
+  border-radius: 20px;
   width: 150px;
 }
 
@@ -16,7 +16,7 @@
   border-top: 30px solid #f72210;
   border-left: 25px solid transparent;
   height: 0;
-  width: 70px;
+  width: 90px;
   position: absolute;
   right: 0;
   top: 87px;
@@ -29,6 +29,11 @@ a:hover {
 
 .navbar .navbar-nav li a:hover {
   color: red;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.log:hover {
   cursor: pointer;
   text-decoration: none;
 }
@@ -230,7 +235,8 @@ img:hover {
 }
 
 nav ul li .nav-sport {
-  padding: 0 0.8rem;
+  padding: 0 1rem;
+  font-size: 1.15rem;
   box-sizing: border-box;
 }
 
@@ -287,6 +293,15 @@ nav ul li .nav-sport {
 .img-check {
   height: 100%;
   width: 100%;
+}
+
+.search-in {
+  background: url(../images/search-solid.svg) no-repeat;
+  background-size: 25%;
+  width: 100px;
+  background-position-x: right;
+  background-position-y: center;
+  filter: invert(60%);
 }
 
 /* **************************TABLETS*********************************** */
