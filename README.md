@@ -17,7 +17,7 @@ Project Design Screenshot : ![Project Design](images/screenshot.PNG)
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Godswilly/news-week/e81be29bafd6811cbe58030cf8bdd40c1535e94d/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Godswilly/news-week/484d208de0227eaa46276cd34b1335f767d2a63b/index.html)
 
 ## Getting started
 **I cloned The Newsweek. The main aim was to make the website responsive in devices of different screen sizes.The elements get placed and styled roughly the same way as the source, so functionality is not a priority.**
