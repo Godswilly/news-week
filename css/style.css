@@ -1,3 +1,9 @@
+body {
+  max-width: 1300px;
+  position: relative;
+  margin: 0 auto;
+}
+
 .page {
   height: 100px;
 }
