@@ -1,0 +1,599 @@
+body {
+  max-width: 1300px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.page {
+  height: 100px;
+}
+
+.bot {
+  border-radius: 20px;
+  width: 150px;
+}
+
+.nav-color {
+  background-color: #f72210;
+  opacity: 1;
+}
+
+.bottom-nav ul li {
+  border-right: 1px solid rgb(230, 225, 225);
+  padding-top: 0.5rem;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.kalu {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -35px;
+  flex-wrap: nowrap;
+  font-size: 14px;
+}
+
+.bottom-nav ul li:last-child {
+  border: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.bottom-nav ul li a {
+  margin: 0 0.5rem 0 0.25rem;
+  color: black;
+  font-weight: bold;
+}
+
+.us-nav ul li a {
+  margin-left: -15px;
+}
+
+.bottom-nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
+.bottom-nav {
+  border-bottom: 2px solid #f4f5f6;
+}
+
+.search-svg {
+  width: 20px;
+  margin-left: -10px !important;
+}
+
+.seacrh-in {
+  background: url(../images/search.svg) no-repeat;
+  background-size: 25%;
+  padding-right: 25px;
+  width: 100px;
+  background-position-x: right;
+  background-position-y: center;
+  filter: invert(40%);
+}
+
+.side-li {
+  width: 80px;
+  height: 25px;
+  transform: skew(45deg);
+  margin-right: -15px;
+  margin-top: -10px;
+}
+
+.bg-orange {
+  background-color: #f34423;
+}
+
+.trapezoid {
+  border-top: 30px solid #f72210;
+  border-left: 25px solid transparent;
+  height: 0;
+  width: 70px;
+  position: absolute;
+  right: 0;
+  top: 87px;
+  z-index: 11;
+}
+
+.us-nav ul li a:hover {
+  color: red;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: red;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.log:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.debate {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-top: 5px solid red;
+  border-bottom: 1px solid #ddd;
+}
+
+.debate-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid #ddd;
+  border-bottom: 5px solid blue;
+  margin-top: 1px;
+  padding-top: 10px;
+}
+
+.debator-img {
+  width: 100%;
+  height: 70%;
+}
+
+.debate-text {
+  line-height: 1em;
+}
+
+.main-section {
+  height: auto;
+  background: #f4f5f6;
+  margin: 0 auto;
+}
+
+.p-text {
+  font-weight: 900;
+}
+
+.p-text:hover {
+  color: red;
+}
+
+.gray-line {
+  border-top: lightgray 0.4px solid;
+  width: 95%;
+}
+
+.gray-line-2 {
+  border-top: lightgray 0.4px solid;
+  width: 97%;
+}
+
+.opinion {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom: 1px solid #ddd;
+}
+
+.news-letter {
+  background: #f4f5f6;
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 90%;
+}
+
+.news-letter img {
+  width: 10%;
+  height: 10%;
+}
+
+.news-letter-img {
+  width: 2%;
+  height: 5%;
+}
+
+.us-pst {
+  padding: 2px 0;
+  color: red;
+  font-weight: 800;
+}
+
+h5,
+h6 {
+  font-weight: 900;
+}
+
+h5:hover,
+h6:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.features {
+  display: inline-block;
+}
+
+.features:hover {
+  background-color: lightgray;
+}
+
+.news-letter button {
+  background: #f22213;
+}
+
+.vs-style-container {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.vs-style-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f4f5f6;
+  border-radius: 50%;
+  background-color: black;
+  padding: 5px 8px;
+}
+
+.bottom-text-img {
+  position: relative;
+}
+
+.bottom-text-img-positn {
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  color: #f72824;
+  background-color: #e7e7e7;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.white {
+  background-color: white;
+}
+
+.pix-bottom {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  height: 500px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.movement-1 {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+.starting-5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.starting-5 div {
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+.s-icon {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.s-icon-1:hover {
+  color: #3b5998;
+}
+
+.s-icon-2:hover {
+  color: #00acee;
+}
+
+.s-icon-3:hover {
+  color: #3f729b;
+}
+
+.s-icon-5:hover {
+  color: #0e76a8;
+}
+
+.s-height {
+  height: 60px;
+}
+
+.news-week {
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.us-nav ul {
+  flex-wrap: nowrap;
+  list-style-type: none;
+  font-size: 16px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -13px;
+}
+
+.us-nav {
+  width: 97%;
+}
+
+.d-flex-3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.debate,
+.debate-2 {
+  height: 150px;
+}
+
+.btn-1 {
+  padding: 0;
+}
+
+.hide-1 {
+  display: none;
+}
+
+.display-all {
+  display: inline-block;
+}
+
+.ft-h {
+  height: auto;
+}
+
+.wt {
+  width: 15rem;
+}
+
+.edith {
+  height: 70px;
+}
+
+.img-top-1 {
+  height: 330px;
+  width: 100%;
+}
+
+.img-top {
+  width: 100%;
+  height: 230px;
+}
+
+.check {
+  height: 35px;
+  width: 35px;
+}
+
+.img-check {
+  height: 100%;
+  width: 100%;
+}
+
+.font-reduction {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* **************************TABLETS*********************************** */
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .page {
+    height: 50px;
+  }
+
+  .font-reduction {
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .p-text {
+    font-weight: 500;
+  }
+
+  .newsweek-img-nav {
+    width: 200px;
+    height: 40px;
+    margin-left: 5px;
+  }
+
+  .tab-center {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .tab-center-2 {
+    width: 36%;
+    margin: 0 auto;
+  }
+
+  .display-all {
+    display: flex;
+  }
+
+  .hide-1 {
+    display: none;
+  }
+
+  .debate,
+  .debate-2 {
+    height: 110px;
+  }
+}
+
+/* ********************* MOBILE****************** */
+@media only screen and (max-width: 767px) {
+  .page {
+    height: 50px;
+  }
+
+  .navigation-1 {
+    position: fixed;
+    top: 0;
+    opacity: 1;
+    z-index: 900000;
+    background-color: red;
+  }
+
+  .newsweek-img-nav {
+    width: 100px;
+    height: 40px;
+    margin-left: 5px;
+  }
+
+  .nav-height-icon {
+    height: 25px;
+  }
+
+  .small-btn-1 {
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  .first {
+    order: 1;
+  }
+
+  .second {
+    order: 2;
+  }
+
+  .third {
+    order: 3;
+  }
+
+  .forth {
+    order: 4;
+  }
+
+  .unhide-1 {
+    display: inline-block;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .flex-small {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsweek-m {
+    height: 100px;
+    width: 130px;
+  }
+
+  .pix-bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    height: 600px;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .ft-1 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .breath {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .align-prp {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .wt-inp {
+    width: 100%;
+  }
+
+  .flex-mb {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+  }
+
+  .movement-2 {
+    position: absolute;
+    margin-left: -40px;
+    z-index: 10;
+  }
+
+  .movement-3 {
+    margin-top: 20px;
+    margin-left: 40px;
+    z-index: 20;
+    position: absolute;
+  }
+
+  .d-front {
+    font-weight: 900;
+    z-index: 30;
+    font-size: 17px;
+    align-self: flex-end;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .d-flex-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cent-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cent-icon-2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+  }
+
+  .debate,
+  .debate-2 {
+    height: 120px;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1300px) {
+  .font-reduction {
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .p-text {
+    font-weight: 500;
+  }
+
+  main,
+  footer {
+    width: 95vw;
+    margin: 0 auto;
+  }
+
+  .navigation-container {
+    height: auto;
+    width: 95vw;
+    margin: 0 auto;
+    position: relative;
+  }
+}
